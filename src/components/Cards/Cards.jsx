@@ -1,10 +1,10 @@
-import Card from './Card';
-
+import Card from '../Card/Card';
+import SContainers from '../SContainer/SContainers';
 export default function Cards({characters}) {
 
    
    return (
-   <div>
+   <SContainers>
       {characters.map(characters => 
          <Card 
             key={characters.id}
@@ -16,6 +16,6 @@ export default function Cards({characters}) {
             image={characters.image}
             onClose={() => window.alert('Emulamos que se cierra la card')}
          />)}
-   </div>
+   </SContainers>
    );
 }
