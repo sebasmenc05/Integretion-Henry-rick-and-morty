@@ -1,0 +1,7 @@
+.form {
+    background-color: rgb(188, 205, 199);
+    max-width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
